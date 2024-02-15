@@ -12,6 +12,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-image: url("https://i.gifer.com/embedded/download/MwcO.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .container{
 	height: 350px;
@@ -19,4 +23,78 @@
 	box-shadow: 0px 0px 20px purple;
 	border-radius: 30px;
 	padding: 20px;
+	background: transparent;
+	backdrop-filter: blur(20px);
+}
+.heading{
+	color: pink;
+	font-family: Broadway;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+input[type="text"]{
+	height: 30px;
+	width: 180px;
+	padding-left: 10px;
+	outline: none;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.srch_btn{
+	border: none;
+	background-color: transparent;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.component{
+	display: flex;
+	align-items: center;
+	justify-content: pointer;
+}
+.btn{
+	margin-top: -20px;
+	margin-left: 10px;
+}
+#city{
+	color: blueviolet;
+	font-family: Arial Black;
+	font-size: 20px;
+}
+.measurement{
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.headings{
+	color: peachpuff;
+	font-family: Arial Black;
+	font-size: 12px;
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
