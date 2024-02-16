@@ -12,7 +12,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url("https://i.gifer.com/embedded/download/MwcO.gif");
+	background-image: url("https://i.pinimg.com/originals/4c/50/67/4c50672068dabc5ca0ac0c13c8b26066.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -70,6 +70,7 @@ input[type="text"]{
 	color: peachpuff;
 	font-family: Arial Black;
 	font-size: 12px;
+	font-weight: bolder;
 }
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
