@@ -12,7 +12,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url("https://i.pinimg.com/originals/4c/50/67/4c50672068dabc5ca0ac0c13c8b26066.gif");
+	background-image: url("https://hikemtshasta.files.wordpress.com/2019/01/Little-Lenticular-1.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -20,7 +20,7 @@
 .container{
 	height: 350px;
 	width: 250px;
-	box-shadow: 0px 0px 20px purple;
+	box-shadow: 0px 0px 20px grey;
 	border-radius: 30px;
 	padding: 20px;
 	background: transparent;
@@ -28,7 +28,7 @@
 }
 .heading{
 	color: pink;
-	font-family: Broadway;
+	font-family: Arial Black;
 	font-size: 15px;
 	text-align: center;
 	margin-bottom: 15px;
